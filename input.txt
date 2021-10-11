@@ -1,0 +1,9 @@
+START winscp
+START putty
+CALL connect try_catch
+CALL login no_try_catch
+CALL writeFile  no_try_catch
+RETURN
+THROW
+THROW
+END
